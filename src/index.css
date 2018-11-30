@@ -1,0 +1,128 @@
+html,body{
+  font-family: Ubuntu,sans-serif;
+    background: url("night.jpg");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed !important;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display:initial;
+  
+
+  
+  }
+  
+
+
+  #nav-bar{
+   
+    background:#0000005c;
+    width:100%;
+    display:inline-block;
+   text-align:center;
+  
+  }
+
+  
+.logotext{
+  font-family:'Times New Roman', Times, serif;
+  font-size:2em;
+  -webkit-box-reflect: below -10px  
+  -webkit-gradient(linear, left top, left bottom,
+  from(transparent),
+  color-stop(0.4, transparent),
+  to(rgb(255, 255, 255)));
+}
+
+.nav{
+  display:inline-block;
+}
+
+  a{
+
+    color: white;
+    padding: 20px;
+    -webkit-user-drag:none;
+    text-decoration:none;
+    display:inline-block;
+
+   
+  }
+  a:hover{
+  
+    text-decoration:underline;
+  
+  
+  }
+
+  section{
+    background: #7600e266;
+    border-radius: 0 10px 30px 0;
+    margin-right: 30px;
+    margin-top: 30px;
+    border-top: 10px solid #9a96e4;
+    border-right: 15px solid #8068ff;
+    padding: 10px;
+    display: inline-block;
+    width: 50%;
+  
+  }
+
+  #cv{
+    width: 50%;
+    color: #ffffff;
+    background: #21286bd1;
+    margin-top: 45px;
+    padding: 20px 40px;
+    border-top: 10px solid #6674a9;
+    border-left: 15px solid #305375;
+    float: right;
+    border-radius: 10px 0 0 30px;
+    margin-bottom: 50px;
+  
+    
+  }
+ 
+  .cv-intro{
+    text-align:center;
+    font-size:1.2em;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom:20px;
+  }
+  .cv-body{
+    display:grid;
+  }
+  table{
+    border-collapse:collapse;
+  }
+  table, th, td{
+   
+    padding:5px;
+    
+  }
+
+  @media only screen and (max-width: 740px) {
+    
+    
+    #cv{
+      float:left;
+      border-radius:0px 0px 0px 0px;
+      width:initial;
+      border:none;
+      padding-left:0;
+      padding-right:0;
+      text-align:center;
+    }
+    
+    section{
+      width:initial;
+    }
+    table, th, td{
+      padding:0;
+      border:1px solid #676cff;
+    }
+    
+   
+
+}
